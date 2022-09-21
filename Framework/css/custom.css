@@ -1,3 +1,16 @@
+/*Farben deklarienen*/
+:root {
+    --white: #FFF;
+    --black: #000;
+
+    --primary: #00FFFF;
+    --secondary: #FF0080;
+    --c3: #57ADE6;
+    --c4: #C957E6;
+    --c5: #6B64CC;
+}
+
+
 @media (min-width: 400px) {
 
     /*---------------root--------------*/
@@ -28,13 +41,27 @@
 
     table {
         box-sizing: border-box;
-        background-color: whitesmoke;
+        width: 100%;
+        height: auto;
 
     }
 
     tr {}
 
-    th {}
+    tr:nth-child(even) {
+        background-color: whitesmoke;
+    }
+
+    th {
+        text-align: center;
+        background-color: lightgray;
+    }
+
+    td {
+        text-align: center;
+    }
+
+
 
     /*--------------list---------------*/
 

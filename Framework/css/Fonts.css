@@ -3,6 +3,15 @@
     src: url(../Fonts/Universal/Universal\ Serif.ttf);
 }
 
+@font-face {
+    font-family: Grundschrift;
+    src: url(../Fonts/analogue/TrueType/AnalogueRed-55Regular.ttf);
+}
+
 h1 {
     font-family: Ueberschrift;
+}
+
+p {
+    font-family: Grundschrift;
 }
