@@ -1,119 +1,109 @@
+/*Farben deklarienen*/
+:root {
+    --white: #FFF;
+    --black: #000;
+
+    --primary: #00FFFF;
+    --secondary: #FF0080;
+    --c3: #57ADE6;
+    --c4: #C957E6;
+    --c5: #6B64CC;
+}
+
+
 @media (min-width: 400px) {
 
     /*---------------root--------------*/
-    html {
-        
-    }
+    html {}
 
-    body {
-
-    }
+    body {}
 
 
     /*---------------headlines--------------*/
 
-    h1 {
+    h1 {}
 
-    }
+    h2 {}
 
-    h2 {
-        
-    }
+    h3 {}
 
-    h3 {
-        
-    }
+    h4 {}
 
-    h4 {
-        
-    }
+    h5 {}
 
-    h5 {
-        
-    }
-
-    h6 {
-        
-    }
+    h6 {}
 
     /*---------------paragraph----------------*/
 
-    p {
-        
-    }
+    p {}
 
     /*-----------------table-----------------------------*/
 
     table {
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
 
     }
 
-    tr {
+    tr {}
 
+    tr:nth-child(even) {
+        background-color: whitesmoke;
     }
 
     th {
-
+        text-align: center;
+        background-color: lightgray;
     }
+
+    td {
+        text-align: center;
+    }
+
+
 
     /*--------------list---------------*/
 
-    ul {
+    ul {}
 
-    }
-
-    li {
-
-    }
+    li {}
 
     /*--------------footer/header--------------*/
 
-    footer{
+    footer {}
 
-    }
-
-    header{
-
-    }
+    header {}
 
     /*--------------semantics------------------*/
 
-    main{
+    main {}
 
-    }
+    nav {}
 
-    nav{
-
-    }
-
-    article{
-
-    }
+    article {}
 
 
-    aside {
+    aside {}
 
-    }
+    details {}
 
-    details {
+    figcaption {}
 
-    }
+    figure {}
 
-    figcaption {
 
-    }
 
-    figure {
+    mark {}
 
-    }
 
-    
+    section {}
 
-    mark {
+    summary {}
 
-    }
-   
+    time {}
 
+<<<<<<< HEAD
     section {
 
     }
@@ -127,6 +117,8 @@
     }
     
     /*------------etc--------------*/
+=======
+>>>>>>> f7996b3ed0b7ee58cd5cbf242c120e4f927444ef
 
 
    
@@ -136,123 +128,80 @@
 @media (min-width: 1200px) {
 
     /*---------------root--------------*/
-    html {
-        
-    }
+    html {}
 
-    body {
-
-    }
+    body {}
 
 
     /*---------------headlines--------------*/
 
-    h1 {
+    h1 {}
 
-    }
+    h2 {}
 
-    h2 {
-        
-    }
+    h3 {}
 
-    h3 {
-        
-    }
+    h4 {}
 
-    h4 {
-        
-    }
+    h5 {}
 
-    h5 {
-        
-    }
-
-    h6 {
-        
-    }
+    h6 {}
 
     /*---------------paragraph----------------*/
 
-    p {
-        
-    }
+    p {}
 
     /*-----------------table-----------------------------*/
 
-    table {
+    table {}
 
-    }
+    tr {}
 
-    tr {
-
-    }
-
-    th {
-
-    }
+    th {}
 
     /*--------------list---------------*/
 
-    ul {
+    ul {}
 
-    }
-
-    li {
-
-    }
+    li {}
 
     /*--------------footer/header--------------*/
 
-    footer{
+    footer {}
 
-    }
-
-    header{
-
-    }
+    header {}
 
     /*--------------semantics------------------*/
 
-    main{
+    main {}
 
-    }
+    nav {}
 
-    nav{
-
-    }
-
-    article{
-
-    }
+    article {}
 
 
-    aside {
+    aside {}
 
-    }
+    details {}
 
-    details {
+    figcaption {}
 
-    }
+    figure {}
 
-    figcaption {
 
-    }
 
-    figure {
+    mark {}
 
-    }
 
-    
+    section {}
 
-    mark {
+    summary {}
 
-    }
-   
+    time {}
 
-    section {
 
-    }
 
+<<<<<<< HEAD
     summary {
 
     }
@@ -268,3 +217,6 @@
     }
 }
 
+=======
+}
+>>>>>>> f7996b3ed0b7ee58cd5cbf242c120e4f927444ef
