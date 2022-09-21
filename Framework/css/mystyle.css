@@ -1,0 +1,37 @@
+body {
+    background-color: beige;
+}
+
+nav{
+    column-count: 2;
+    margin-top: 1rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+nav li {
+    padding-left: 1rem;
+    font-size: 2rem;
+    line-height: 2em;
+    width: 10rem;
+}
+
+nav a{
+    text-decoration: none;  
+    display:block;
+}
+
+nav a:hover {
+    background-color: whitesmoke;
+    border-bottom: 1px solid grey;
+}
+
+.logo {
+    color:black
+}
