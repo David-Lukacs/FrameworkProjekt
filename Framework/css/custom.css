@@ -1,131 +1,81 @@
 @media (min-width: 400px) {
 
     /*---------------root--------------*/
-    html {
-        
-    }
+    html {}
 
-    body {
-
-    }
+    body {}
 
 
     /*---------------headlines--------------*/
 
-    h1 {
+    h1 {}
 
-    }
+    h2 {}
 
-    h2 {
-        
-    }
+    h3 {}
 
-    h3 {
-        
-    }
+    h4 {}
 
-    h4 {
-        
-    }
+    h5 {}
 
-    h5 {
-        
-    }
-
-    h6 {
-        
-    }
+    h6 {}
 
     /*---------------paragraph----------------*/
 
-    p {
-        
-    }
+    p {}
 
     /*-----------------table-----------------------------*/
 
     table {
+        box-sizing: border-box;
+        background-color: whitesmoke;
 
     }
 
-    tr {
+    tr {}
 
-    }
-
-    th {
-
-    }
+    th {}
 
     /*--------------list---------------*/
 
-    ul {
+    ul {}
 
-    }
-
-    li {
-
-    }
+    li {}
 
     /*--------------footer/header--------------*/
 
-    footer{
+    footer {}
 
-    }
-
-    header{
-
-    }
+    header {}
 
     /*--------------semantics------------------*/
 
-    main{
+    main {}
 
-    }
+    nav {}
 
-    nav{
-
-    }
-
-    article{
-
-    }
+    article {}
 
 
-    aside {
+    aside {}
 
-    }
+    details {}
 
-    details {
+    figcaption {}
 
-    }
+    figure {}
 
-    figcaption {
 
-    }
 
-    figure {
+    mark {}
 
-    }
 
-    
+    section {}
 
-    mark {
+    summary {}
 
-    }
-   
+    time {}
 
-    section {
-
-    }
-
-    summary {
-
-    }
-
-    time {
-
-    }
-    
 
 
 
@@ -135,128 +85,77 @@
 @media (min-width: 1200px) {
 
     /*---------------root--------------*/
-    html {
-        
-    }
+    html {}
 
-    body {
-
-    }
+    body {}
 
 
     /*---------------headlines--------------*/
 
-    h1 {
+    h1 {}
 
-    }
+    h2 {}
 
-    h2 {
-        
-    }
+    h3 {}
 
-    h3 {
-        
-    }
+    h4 {}
 
-    h4 {
-        
-    }
+    h5 {}
 
-    h5 {
-        
-    }
-
-    h6 {
-        
-    }
+    h6 {}
 
     /*---------------paragraph----------------*/
 
-    p {
-        
-    }
+    p {}
 
     /*-----------------table-----------------------------*/
 
-    table {
+    table {}
 
-    }
+    tr {}
 
-    tr {
-
-    }
-
-    th {
-
-    }
+    th {}
 
     /*--------------list---------------*/
 
-    ul {
+    ul {}
 
-    }
-
-    li {
-
-    }
+    li {}
 
     /*--------------footer/header--------------*/
 
-    footer{
+    footer {}
 
-    }
-
-    header{
-
-    }
+    header {}
 
     /*--------------semantics------------------*/
 
-    main{
+    main {}
 
-    }
+    nav {}
 
-    nav{
-
-    }
-
-    article{
-
-    }
+    article {}
 
 
-    aside {
+    aside {}
 
-    }
+    details {}
 
-    details {
+    figcaption {}
 
-    }
+    figure {}
 
-    figcaption {
 
-    }
 
-    figure {
+    mark {}
 
-    }
 
-    
+    section {}
 
-    mark {
+    summary {}
 
-    }
-   
+    time {}
 
-    section {
 
-    }
 
-    summary {
-
-    }
-
-    time {
-
-    }
 }
