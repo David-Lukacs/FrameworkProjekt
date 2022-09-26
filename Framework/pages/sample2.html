@@ -7,13 +7,53 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/skeleton.css">
     <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/mystyle.css">
     <title>Document</title>
 </head>
 <body>
 
     <!-- besteht aus folgenden Elementen: Tabelle, Formular;-->
-    <p>
-        hi page 2
-    </p>
+    <header>
+        <nav>
+          <div class="logo" >
+            <h2>LOGO</a></h2>
+          </div>
+          <div class="pages">
+            <ul>
+              <li><a href="./sample1.html">Sample 1</a></li>
+              <li><a href="./sample2.html">Sample 2</a></li>
+              <li><a href="./sample3.html">Sample 3</a></li>
+            </ul>
+          
+          </div>
+        </nav>
+      </header>
+
+      <main>
+            <h1>Table</h1>
+
+            <h1>Form</h1>
+
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-3"> 
+                    <form class="myform">
+                        <label for="vname">Vorname</label>
+                        <input class="textinput" type="text" name="vname" id="vname" placeholder="Max">
+                        <label for="vname">Nachname</label>
+                        <input type="text" name="nname" id="nname" placeholder="Mustermann">
+                        <label for="vname">E-Mail</label>
+                        <input type="email" name="mail" id="mail" placeholder="mail@example.com">
+                        <label for="vname">Passwort</label>
+                        <input type="password" name="password" id="password">
+                        <label for="vname">Geburtsdatum</label>
+                        <input type="date" name="birthday" id="birthday">
+                        <p><input type="checkbox" name="agb" id="agb" style="float:left; " >  Ich habe die AGB gelesen  </p>
+                        <input type="submit" value="SUBMIT">
+                    </form></div>
+               
+            </div>
+            
+      </main>
 </body>
 </html>

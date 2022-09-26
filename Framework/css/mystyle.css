@@ -19,7 +19,6 @@
   [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
   }
 
   .row::after {
@@ -33,10 +32,12 @@
 
 
 body {
-    background-color: beige;
-    background-image: url();
     font-size: 16px;
    
+}
+
+header {
+    background-color: grey;
 }
 
 nav{
@@ -74,13 +75,7 @@ nav a:hover {
     color:black
 }
 
-
-
-
-footer {
-
-    background: grey;
-
+.myform {
+    background-color: white;
+    border:10 px solid black;
 }
-
-
