@@ -65,7 +65,28 @@
 
     /*--------------list---------------*/
 
-    ul {}
+    ul {
+        list-style: circle inside;
+    }
+
+    ol {
+        list-style: decimal inside;
+    }
+
+    ul,
+    ol {
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    ul ul,
+    ul ol,
+    ol ol,
+    ol ul {
+        margin: 1.5rem 0 1.5rem 3rem;
+        font-size: 90%;
+        list-style-type: circle;
+    }
 
     li {}
 
@@ -103,26 +124,14 @@
 
     time {}
 
-<<<<<<< HEAD
-    section {
+    <<<<<<< HEAD section {}
 
-    }
+    summary {}
 
-    summary {
+    time {}
 
-    }
-
-    time {
-
-    }
-    
     /*------------etc--------------*/
-=======
->>>>>>> f7996b3ed0b7ee58cd5cbf242c120e4f927444ef
-
-
-   
-
+    =======>>>>>>>f7996b3ed0b7ee58cd5cbf242c120e4f927444ef
 }
 
 @media (min-width: 1200px) {
@@ -201,22 +210,16 @@
 
 
 
-<<<<<<< HEAD
-    summary {
+    <<<<<<< HEAD summary {}
 
-    }
-
-    time {
-
-    }
+    time {}
 
     /*---------etc---------*/
 
-    .logo{
-
-    }
+    .logo {}
 }
 
 =======
 }
->>>>>>> f7996b3ed0b7ee58cd5cbf242c120e4f927444ef
+
+>>>>>>>f7996b3ed0b7ee58cd5cbf242c120e4f927444ef
