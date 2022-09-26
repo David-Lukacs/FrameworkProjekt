@@ -296,27 +296,21 @@
     
     }
     
+
     input {
         width: 100%;
     }
     
-    input[type=text] {
+    input[type=text],
+    input[type=email],
+    input[type=password]
+     {
         border: none;
         border-radius: 0px;
         border-bottom: 1px solid grey;
     }
     
-    input[type=email] {
-        border: none;
-        border-radius: 0px;
-        border-bottom: 1px solid grey;
-    }
     
-    input[type=password] {
-        border: none;
-        border-radius: 0px;
-        border-bottom: 1px solid grey;
-    }
     
     input:focus{
         border-radius: 5px;
