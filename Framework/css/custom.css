@@ -124,14 +124,14 @@
 
     time {}
 
-    <<<<<<< HEAD section {}
+    HEAD section {}
 
     summary {}
 
     time {}
 
     /*------------etc--------------*/
-    =======>>>>>>>f7996b3ed0b7ee58cd5cbf242c120e4f927444ef
+
 }
 
 @media (min-width: 1200px) {
@@ -210,7 +210,7 @@
 
 
 
-    <<<<<<< HEAD summary {}
+    HEAD summary {}
 
     time {}
 
@@ -218,8 +218,3 @@
 
     .logo {}
 }
-
-=======
-}
-
->>>>>>>f7996b3ed0b7ee58cd5cbf242c120e4f927444ef
