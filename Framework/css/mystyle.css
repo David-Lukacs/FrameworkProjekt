@@ -1,8 +1,3 @@
-
-
-
-
-
 nav{
     column-count: 2;
     
@@ -12,6 +7,7 @@ nav ul {
     list-style: none;
     display: flex;
     text-align: center;
+    float: right;
 }
 
 nav li {
@@ -34,11 +30,14 @@ nav a:hover {
     color: black
 }
 
-.logo {
-    color:black
-}
+
 
 .myform {
     background-color: white;
     border:10 px solid black;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
 }
