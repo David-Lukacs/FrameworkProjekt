@@ -1,3 +1,24 @@
+@font-face {
+    font-family: Ueberschrift;
+    src: url(../Fonts/Universal/Universal\ Serif.ttf);
+}
+
+@font-face {
+    font-family: Grundschrift;
+    src: url(../Fonts/analogue/TrueType/AnalogueRed-55Regular.ttf);
+}
+
+h1, h2,h3,h4,h5,h6 {
+    font-family: Ueberschrift;
+
+}
+
+p {
+    font-family: Grundschrift;
+}
+
+
+
 /*Farben deklarienen*/
 :root {
     --white: #FFF;
@@ -17,26 +38,11 @@
     /*---------------root--------------*/
     html {}
 
-    body {}
+    body { background-color: white;}
 
 
-    /*---------------headlines--------------*/
 
-    h1 {}
 
-    h2 {}
-
-    h3 {}
-
-    h4 {}
-
-    h5 {}
-
-    h6 {}
-
-    /*---------------paragraph----------------*/
-
-    p {}
 
     /*-----------------Tables-----------------------------*/
 
@@ -164,18 +170,6 @@
     }
     
     
-    
-    
-    
-    body {
-        background-color: white;
-    }
-    
-    
-    
-    body {
-        background-color: white;
-    }
 
 
     /* Code
@@ -272,7 +266,33 @@
 
     time {}
 
-    /*------------etc--------------*/
+    /*------------Text Level Elements--------------*/
+
+    a {}
+    abbr {}
+    cite {}
+    code {}
+    del {}
+    dfn {}
+    em {}
+    ins {}
+    kbd {}
+    mark {}
+    meter {}
+    progress {}
+    q {}
+    s {}
+    samp {}
+    small {}
+    strong {}
+    sub {}
+    sup {}
+    time {}
+    u {}
+    var {}
+
+
+
 
 }
 
