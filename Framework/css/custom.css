@@ -363,12 +363,24 @@ p {
             font-style: italic;
         }
 
+        .fakekursiv {
+            font-style: oblique;
+        }
+
         .fett {
             font-weight: bold;
         }
 
         .underline {
             text-decoration: underline;
+        }
+
+        .durchstreichen {
+            text-decoration: line-through;
+        }
+
+        .kapitälchen {
+            font-variant: small-caps;
         }
 
     
