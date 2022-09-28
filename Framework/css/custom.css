@@ -281,6 +281,14 @@ p {
         margin-right: 10%;
     }
 
+    article {
+            column-count: 2;
+            column-width: 200px;
+            column-gap: 4em;
+            column-rule: 1px dotted #ddd;
+           
+           
+    }
    
     .all-articles {
         margin: 0;
@@ -288,16 +296,16 @@ p {
         background-color: lightgray;
       }
       
-      .all-articles > h4, .article {
+      .all-articles > h4, .myarticle {
         margin: 10px;
         padding: 5px;
       }
       
-      .article {
+      .myarticle {
         background: white;
       }
       
-      .article > h5, p {
+      .myarticle > h5, p {
         margin: 4px;
         font-size: 90%;
       }
@@ -349,7 +357,46 @@ p {
     }
 
 
+    /*--------------------typo styles----------------*/
 
+        .kursiv {
+            font-style: italic;
+        }
+
+        .fett {
+            font-weight: bold;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+    
+        .initial::first-letter {
+            initial-letter: 2;
+        }
+
+        .silbentrennung {hyphens: auto;}
+
+        .linksbündig{
+            text-align: left;
+        }
+
+        .rechtsbündig{
+            text-align: right;
+        }
+
+        .blocksatz{
+            text-align: justify;
+        }
+
+        .zentriert{
+            text-align: center;
+        }
+
+        .texteinzug {
+            text-indent: 10%;
+        }
 
     /*------------Text Level Elements--------------*/
 
