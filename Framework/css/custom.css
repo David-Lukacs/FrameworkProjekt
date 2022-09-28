@@ -20,6 +20,7 @@ h6 {
 
 p {
     font-family: Grundschrift;
+    font-size: 16;
 }
 
 
@@ -345,6 +346,10 @@ p {
 
         .kapitälchen {
             font-variant: small-caps;
+        }
+
+        .schlagschatten {
+            text-shadow: 1px 1px black;
         }
 
     
