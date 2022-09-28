@@ -232,39 +232,107 @@ p {
 
     header {}
 
+    header a {
+        text-decoration: none;
+        color: black;
+    }
+    
+
+
+    /*--------------nav------------------------*/
+
+    nav{
+        column-count: 2;
+        
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        text-align: center;
+        float: right;
+    }
+    
+    nav li {
+        padding-left: 1rem;
+        font-size: 2rem;
+        line-height: 2em;
+        width: 10rem;
+    }
+    
+    
+    
+    nav a{
+        text-decoration: none;  
+        display:block;
+        color:black
+    }
+    
+    nav a:hover {
+        background-color: whitesmoke;
+        color: black
+    }
+ 
     /*--------------semantics------------------*/
 
-    main {}
 
-    nav {}
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
-    article {}
+    article {
+
+    }
+
+    aside {
+        width: 30%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: right;
+        font-style: italic;
+        background-color: lightgray;
+    }
+
+    figcaption {
+        font-style: italic;
+        }
+
+    figure {
+        margin: auto;
 
 
-    aside {}
+    }
 
-    details {}
+    section {
+        display: block;
+    }
 
-    figcaption {}
+    details {
+        cursor: pointer;
+        
+            }
 
-    figure {}
+    details > p {
+        box-shadow: 1px 1px 2px #bbbbbb;
+        width: 30%;
+        padding: 1%;
+
+    }
+
+    summary {
+        font-weight: bold;
+        box-shadow: 1px 1px 2px #bbbbbb;
+        width: 30%;
+        padding: 1%;
+    }
+
+    time {
+        font-style: italic;
+    }
 
 
 
-    mark {}
-
-
-    section {}
-
-    summary {}
-
-    time {}
-
-    HEAD section {}
-
-    summary {}
-
-    time {}
 
     /*------------Text Level Elements--------------*/
 
