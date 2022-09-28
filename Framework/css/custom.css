@@ -20,7 +20,6 @@ h6 {
 
 p {
     font-family: Grundschrift;
-    font-size: 16;
 }
 
 
@@ -191,6 +190,7 @@ p {
 
 
 
+
     /*--------------footer/header--------------*/
 
     footer {}
@@ -201,43 +201,43 @@ p {
         text-decoration: none;
         color: black;
     }
-    
+
 
 
     /*--------------nav------------------------*/
 
-    nav{
+    nav {
         column-count: 2;
-        
+
     }
-    
+
     nav ul {
         list-style: none;
         display: flex;
         text-align: center;
         float: right;
     }
-    
+
     nav li {
         padding-left: 1rem;
         font-size: 2rem;
         line-height: 2em;
         width: 10rem;
     }
-    
-    
-    
-    nav a{
-        text-decoration: none;  
-        display:block;
-        color:black
+
+
+
+    nav a {
+        text-decoration: none;
+        display: block;
+        color: black
     }
-    
+
     nav a:hover {
         background-color: whitesmoke;
         color: black
     }
- 
+
     /*--------------semantics------------------*/
 
 
@@ -247,33 +247,35 @@ p {
     }
 
     article {
-            column-count: 2;
-            column-width: 200px;
-            column-gap: 4em;
-            column-rule: 1px dotted #ddd;
-           
-           
+        column-count: 2;
+        column-width: 200px;
+        column-gap: 4em;
+        column-rule: 1px dotted #ddd;
+
+
     }
-   
+
     .all-articles {
         margin: 0;
         padding: 5px;
         background-color: lightgray;
-      }
-      
-      .all-articles > h4, .myarticle {
+    }
+
+    .all-articles>h4,
+    .myarticle {
         margin: 10px;
         padding: 5px;
-      }
-      
-      .myarticle {
+    }
+
+    .myarticle {
         background: white;
-      }
-      
-      .myarticle > h5, p {
+    }
+
+    .myarticle>h5,
+    p {
         margin: 4px;
         font-size: 90%;
-      }
+    }
 
     aside {
         width: 30%;
@@ -286,7 +288,7 @@ p {
 
     figcaption {
         font-style: italic;
-        }
+    }
 
     figure {
         margin: auto;
@@ -300,15 +302,16 @@ p {
 
     details {
         cursor: pointer;
-        
-            }
 
-    details > p {
+    }
+
+    details>p {
         box-shadow: 1px 1px 2px #bbbbbb;
         width: 30%;
         padding: 1%;
 
     }
+
 
     summary {
         font-weight: bold;
@@ -324,62 +327,121 @@ p {
 
     /*--------------------typo styles----------------*/
 
-        .kursiv {
-            font-style: italic;
-        }
+    .kursiv {
+        font-style: italic;
+    }
 
-        .fakekursiv {
-            font-style: oblique;
-        }
+    .fett {
+        font-weight: bold;
+    }
 
-        .fett {
-            font-weight: bold;
-        }
+    .underline {
+        text-decoration: underline;
+    }
 
-        .underline {
-            text-decoration: underline;
-        }
 
-        .durchstreichen {
-            text-decoration: line-through;
-        }
+    .initial::first-letter {
+        initial-letter: 2;
+    }
 
-        .kapitälchen {
-            font-variant: small-caps;
-        }
+    .silbentrennung {
+        hyphens: auto;
+    }
 
-        .schlagschatten {
-            text-shadow: 1px 1px black;
-        }
+    .linksbündig {
+        text-align: left;
+    }
 
-    
-        .initial::first-letter {
-            initial-letter: 2;
-        }
+    .rechtsbündig {
+        text-align: right;
+    }
 
-        .silbentrennung {hyphens: auto;}
+    .blocksatz {
+        text-align: justify;
+    }
 
-        .linksbündig{
-            text-align: left;
-        }
+    .zentriert {
+        text-align: center;
+    }
 
-        .rechtsbündig{
-            text-align: right;
-        }
-
-        .blocksatz{
-            text-align: justify;
-        }
-
-        .zentriert{
-            text-align: center;
-        }
-
-        .texteinzug {
-            text-indent: 10%;
-        }
+    .texteinzug {
+        text-indent: 10%;
+    }
 
     /*------------Text Level Elements--------------*/
+
+    a {
+        text-decoration: none;
+        font-size: 2rem;
+
+    }
+
+    a:link {
+        color: #333;
+    }
+
+    a:visited {
+        color: #333;
+    }
+
+    a:hover {
+        color: #999;
+    }
+
+    a:active {
+        color: black;
+    }
+
+    abbr {
+        font-style: italic;
+    }
+
+    cite {
+        font-style: italic;
+    }
+
+    code {
+        padding: .2rem .5rem;
+        margin: 0 .2rem;
+        font-size: 90%;
+        white-space: nowrap;
+        background: #F1F1F1;
+        border: 1px solid #E1E1E1;
+        border-radius: 4px;
+    }
+
+    del {
+        text-decoration: line-through;
+        color: gray;
+    }
+
+    dfn {
+        font-style: italic;
+    }
+
+    em {
+        font-style: italic;
+    }
+
+    ins {
+        text-decoration: underline;
+        color: black;
+    }
+
+    kbd {
+        padding: .2rem .5rem;
+        margin: 0 .2rem;
+        font-size: 90%;
+        white-space: nowrap;
+        background: none;
+        border: 2px solid #A9A9A9;
+        border-radius: 0px;
+    }
+
+    mark {
+        color: #333;
+        background-color: lightyellow;
+    }
 
     a {
         text-decoration: none;
