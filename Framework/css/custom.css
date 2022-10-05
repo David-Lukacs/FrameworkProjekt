@@ -13,6 +13,11 @@
     src: url(../Fonts/coolvetica/coolvetica\ rg.otf);
 }
 
+@font-face {
+    font-family: Symbolfont;
+    src: url("../Fonts/iconfont.otf");
+}
+
 h1,
 h2,
 h3,
