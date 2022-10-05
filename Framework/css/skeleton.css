@@ -61,6 +61,7 @@
   .column,
   .columns {
     margin-left: 4%;
+
   }
 
   .column:first-child,
@@ -74,6 +75,7 @@
   }
 
   .two.columns {
+
     width: 13.3333333333%;
   }
 
@@ -91,6 +93,7 @@
 
   .six.columns {
     width: 48%;
+
   }
 
   .seven.columns {
@@ -120,9 +123,11 @@
 
   .one-third.column {
     width: 30.6666666667%;
+
   }
 
   .two-thirds.column {
+
     width: 65.3333333333%;
   }
 

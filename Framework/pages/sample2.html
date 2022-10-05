@@ -8,183 +8,194 @@
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/skeleton.css">
   <link rel="stylesheet" href="../css/custom.css">
-  <title>Table und Form</title>
+  <title>Sample2</title>
 </head>
 
 <body>
 
   <!-- besteht aus folgenden Elementen: Tabelle, Formular;-->
-  <header>
-    <div class="container">
+  <div class="container">
+
+    <header>
       <nav>
-        <div class="">
-          <h2><a href="../index.html">LOGO</a></h2>
-        </div>
-        <div class="">
+        <div class="one-third column">
           <ul>
-            <li><a href="./sample1.html">Sample 1</a></li>
-            <li><a href="./sample2.html">Sample 2</a></li>
-            <li><a href="./sample3.html">Sample 3</a></li>
+            <li class="six columns"><a href="../index.html">LOGO</a></li>
+            <li class="six columns">
+              <h2>Webseite</h2>
+            </li>
           </ul>
 
         </div>
-      </nav>
-    </div>
 
-  </header>
+        <div class="two-thirds column">
+          <ul>
+            <li class="four columns"><a href="sample1.html">Sample 1</a></li>
+            <li class="four columns"><a href="sample2.html">Sample 2</a></li>
+            <li class="four columns"><a href="sample3.html">Sample 3</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </header>
+
+  </div>
 
   <main>
     <div class="container">
-    <h1>Table</h1>
+      <h1>Table</h1>
 
-    <table>
+      <table>
 
-      <tr>
-        <th>Semantik</th>
-        <th>Typografie</th>
-        <th>Font</th>
-        <th>Glyphe</th>
-        <th>Farbe</th>
+        <tr>
+          <th>Semantik</th>
+          <th>Typografie</th>
+          <th>Font</th>
+          <th>Glyphe</th>
+          <th>Farbe</th>
 
-      </tr>
+        </tr>
 
-      <tr>
-        <td>Grundschrift</td>
-        <td>Serifenlose Antiqua Normal</td>
-        <td>Analouge</td>
-        <td>-</td>
-        <td>Schwarz</td>
-      </tr>
+        <tr>
+          <td>Grundschrift</td>
+          <td>Serifenlose Antiqua Normal</td>
+          <td>Analouge</td>
+          <td>-</td>
+          <td>Schwarz</td>
+        </tr>
 
-      <tr>
-        <td>Headlines</td>
-        <td>Coperplate Gotik</td>
-        <td>Universal Serif</td>
-        <td>-</td>
-        <td>Schwarz</td>
-      </tr>
+        <tr>
+          <td>Headlines</td>
+          <td>Coperplate Gotik</td>
+          <td>Universal Serif</td>
+          <td>-</td>
+          <td>Schwarz</td>
+        </tr>
 
-      <tr>
-        <td>Bildunterschriften</td>
-        <td>Serifenlose Antiqua Crammed</td>
-        <td>Coolvetica Crammed</td>
-        <td>-</td>
-        <td>Schwarz</td>
+        <tr>
+          <td>Bildunterschriften</td>
+          <td>Serifenlose Antiqua Crammed</td>
+          <td>Coolvetica Crammed</td>
+          <td>-</td>
+          <td>Schwarz</td>
 
-      </tr>
+        </tr>
 
-      <tr>
-        <td>Namen</td>
-        <td>Serifenlose Antiqua Regular Oblique</td>
-        <td>Analouge Oblique</td>
-        <td>-</td>
-        <td>Schwarz</td>
-      </tr>
+        <tr>
+          <td>Namen</td>
+          <td>Serifenlose Antiqua Regular Oblique</td>
+          <td>Analouge Oblique</td>
+          <td>-</td>
+          <td>Schwarz</td>
+        </tr>
 
-      <tr>
-        <td>Ziffern</td>
-        <td>Serifenlose Antiqua Oblique</td>
-        <td>Analouge Regular Oblique</td>
-        <td>-</td>
-        <td>Schwarz</td>
-      </tr>
+        <tr>
+          <td>Ziffern</td>
+          <td>Serifenlose Antiqua Oblique</td>
+          <td>Analouge Regular Oblique</td>
+          <td>-</td>
+          <td>Schwarz</td>
+        </tr>
 
-      <tr>
-        <td>Zitate</td>
-        <td>Serifenlose Antiqua Oblique</td>
-        <td>Analouge Thin Oblique</td>
-        <td>-</td>
-        <td>Schwarz</td>
-      </tr>
+        <tr>
+          <td>Zitate</td>
+          <td>Serifenlose Antiqua Oblique</td>
+          <td>Analouge Thin Oblique</td>
+          <td>-</td>
+          <td>Schwarz</td>
+        </tr>
 
 
-    </table>
+      </table>
 
-    <h1>Form</h1>
+      <h1>Form</h1>
 
-    <div class="row">
-      <div class="four columns ">
-        <form>
-          <label for="vname">Vorname</label>
-          <input class="textinput" type="text" name="vname" id="vname" placeholder="Max">
-          <label for="vname">Nachname</label>
-          <input type="text" name="nname" id="nname" placeholder="Mustermann">
-          <label for="vname">E-Mail</label>
-          <input type="email" name="mail" id="mail" placeholder="mail@example.com">
-          <label for="vname">Passwort</label>
-          <input type="password" name="password" id="password">
-          <label for="vname">Geburtsdatum</label>
-          <input type="date" name="birthday" id="birthday">
-          <input type="submit" value="SUBMIT">
-        </form>
+      <div class="row">
+        <div class="four columns ">
+          <form>
+            <label for="vname">Vorname</label>
+            <input class="textinput" type="text" name="vname" id="vname" placeholder="Max">
+            <label for="vname">Nachname</label>
+            <input type="text" name="nname" id="nname" placeholder="Mustermann">
+            <label for="vname">E-Mail</label>
+            <input type="email" name="mail" id="mail" placeholder="mail@example.com">
+            <label for="vname">Passwort</label>
+            <input type="password" name="password" id="password">
+            <label for="vname">Geburtsdatum</label>
+            <input type="date" name="birthday" id="birthday">
+            <input type="submit" value="SUBMIT">
+          </form>
+        </div>
+
       </div>
-
-    </div>
 
     </div>
 
   </main>
 
 
-  <footer >
+  <footer>
     <div class="container">
       <div class="row">
         <div class="six columns">
-          <h5>Our Company</h5><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ipsa! Quod iusto reiciendis saepe excepturi voluptate tempora, neque ipsam corrupti officia repudiandae modi! Quia maiores neque explicabo, amet tempora vel!</p>
+          <h5>Our Company</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ipsa! Quod iusto reiciendis saepe
+            excepturi voluptate tempora, neque ipsam corrupti officia repudiandae modi! Quia maiores neque explicabo,
+            amet tempora vel!</p>
         </div>
-          <div class="two columns">
-            <h6>PRODUCTS</h6>
-            <ul style="list-style-type: none;">
-              <li>
-                Big Data
-              </li>
-              <li>
-                Marketing
-              </li>
-              <li>
-                Analytics
-              </li>
-              <li>
-                AI Lab
-              </li>
-            </ul>
-          </div>
+        <div class="two columns">
+          <h6>PRODUCTS</h6>
+          <ul style="list-style-type: none;">
+            <li>
+              Big Data
+            </li>
+            <li>
+              Marketing
+            </li>
+            <li>
+              Analytics
+            </li>
+            <li>
+              AI Lab
+            </li>
+          </ul>
+        </div>
 
-          <div class="two columns">
-            <h6>OUR COMPANY</h6>
-            <ul style="list-style-type: none;">
-              <li>
-                Team
-              </li>
-              <li>
-                Work
-              </li>
-              <li>
-                Culture
-              </li>
-              <li>
-                Contact us
-              </li>
-            </ul>
-          </div>
+        <div class="two columns">
+          <h6>OUR COMPANY</h6>
+          <ul style="list-style-type: none;">
+            <li>
+              Team
+            </li>
+            <li>
+              Work
+            </li>
+            <li>
+              Culture
+            </li>
+            <li>
+              Contact us
+            </li>
+          </ul>
+        </div>
 
-          <div class="two columns">
-            <h6>OUR OFFICE</h6>
-            <ul style="list-style-type: none;">
-              <li>
-                London
-              </li>
-              <li>
-                Chicago
-              </li>
-              <li>
-                Dubau
-              </li>
-              <li>
-                Brussels
-              </li>
-            </ul>
-          </div>
+        <div class="two columns">
+          <h6>OUR OFFICE</h6>
+          <ul style="list-style-type: none;">
+            <li>
+              London
+            </li>
+            <li>
+              Chicago
+            </li>
+            <li>
+              Dubau
+            </li>
+            <li>
+              Brussels
+            </li>
+          </ul>
+        </div>
 
       </div>
     </div>

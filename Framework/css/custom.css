@@ -27,6 +27,8 @@ p {
     font-family: Grundschrift;
 }
 
+body {}
+
 
 
 /*Farben deklarienen*/
@@ -199,61 +201,63 @@ p {
 
     /*--------------footer/header--------------*/
 
-    footer {
-        background-color: lightgrey;
-        margin-top: 10%;
-        width: 100%;
+    header ul {
+        list-style: none;
     }
 
-    header {}
-
-    header a {
-        text-decoration: none;
-        color: black;
+    footer ul {
+        list-style: none;
     }
+
+
 
 
 
     /*--------------nav------------------------*/
 
-    nav {
-        column-count: 2;
-
-    }
-
     nav ul {
-        list-style: none;
         display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul .columns {
+        margin: auto;
+        padding: auto;
+
+    }
+
+    nav ul li {
+        margin: 0;
+        padding: 0;
         text-align: center;
-        float: right;
+        padding: 1rem;
     }
-
-    nav li {
-        padding-left: 1rem;
-        font-size: 2rem;
-        line-height: 2em;
-        width: 10rem;
-    }
-
-
 
     nav a {
-        text-decoration: none;
-        display: block;
-        color: black
+        font-size: 2rem;
+        margin: 0;
+        padding: 0
     }
 
-    nav a:hover {
-        background-color: whitesmoke;
-        color: black
+    nav h2 {
+        font-size: 2rem;
+        margin: 0;
+        padding: 0
     }
+
+
+
+
+
+
+
+
 
     /*--------------semantics------------------*/
 
 
-    main {
-        
-    }
+    main {}
 
     article {
         column-count: 2;
@@ -354,7 +358,7 @@ p {
     }
 
 
- 
+
 
     .silbentrennung {
         hyphens: auto;

@@ -1,0 +1,21 @@
+.content1 {
+    background-image: url("../Bilder/bg-1.jpg");
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+
+.content2 {
+    background-color: white;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.content3 {
+    background-image: url("../Bilder/bg-2.jpg");
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
