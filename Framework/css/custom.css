@@ -18,6 +18,12 @@
     src: url("../Fonts/iconfont.otf");
 }
 
+.Symbol {
+    font-family: Symbolfont;
+    font-size: 4rem;
+    text-align: center;
+}
+
 h1,
 h2,
 h3,
