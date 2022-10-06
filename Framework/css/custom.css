@@ -18,22 +18,7 @@
     src: url("../Fonts/iconfont.otf");
 }
 
-.Symbol {
-    font-family: Symbolfont;
-    font-size: 4rem;
-    text-align: center;
-}
 
-.SymbolNav {
-    font-family: Symbolfont;
-    font-size: 2rem;
-    text-align: center;
-    margin-right: 1rem;
-}
-
-.Logo {
-    height: 3rem;
-}
 
 h1,
 h2,
@@ -76,6 +61,27 @@ body {}
         background-color: white;
         width: 100%;
         overflow-x: hidden;
+    }
+
+
+    .Symbol {
+        font-family: Symbolfont;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .SymbolNav {
+        font-family: Symbolfont;
+        text-align: center;
+        font-size: 2rem;
+        margin-right: 1rem;
+
+
+
+    }
+
+    .Logo {
+        height: 3rem;
     }
 
 
@@ -224,8 +230,16 @@ body {}
 
     /*--------------footer/header--------------*/
 
-    header ul {
-        list-style: none;
+    header {
+        background-color: white;
+    }
+
+
+    footer {
+        margin-top: 8rem;
+        background-color: black;
+        color: white;
+        padding: 2rem;
     }
 
     footer ul {
@@ -238,10 +252,17 @@ body {}
 
     /*--------------nav------------------------*/
 
+    nav {
+
+        height: 4rem;
+        padding: 2rem;
+    }
+
     nav ul {
         display: flex;
         margin: 0;
         padding: 0;
+        list-style: none;
     }
 
     ul .columns {
@@ -254,13 +275,14 @@ body {}
         margin: 0;
         padding: 0;
         text-align: center;
-        padding: 1rem;
+
     }
 
     nav a {
         font-size: 2rem;
         margin: 0;
-        padding: 0
+        padding: 0;
+
     }
 
     nav h1 {
@@ -269,12 +291,14 @@ body {}
         padding: 0
     }
 
+    .currentsite a {
+        text-decoration: underline;
 
+    }
 
-
-
-
-
+    .currentsite .SymbolNav {
+        text-decoration: none;
+    }
 
 
     /*--------------semantics------------------*/
