@@ -1,6 +1,6 @@
 @font-face {
     font-family: Ueberschrift;
-    src: url(../Fonts/Mont/Mont-HeavyDEMO.otf);
+    src: url(../Fonts/coolvetica/coolvetica\ rg.otf);
 }
 
 @font-face {
@@ -10,12 +10,27 @@
 
 @font-face {
     font-family: Bildunterschrift;
-    src: url(../Fonts/coolvetica/coolvetica\ rg.otf);
+    src: url(../Fonts/coolvetica/coolvetica\ compressed\ hv.otf);
+}
+
+@font-face {
+    font-family: Name;
+    src: url(../Fonts/analogue/TrueType/AnalogueRed-66MediumOblique.ttf);
+}
+
+@font-face {
+    font-family: Ziffern;
+    src: url(../Fonts/coolvetica/coolvetica\ condensed\ rg.otf);
+}
+
+@font-face {
+    font-family: Zitate;
+    src: url(../Fonts/analogue/TrueType/AnalogueRed-36ThinOblique.ttf);
 }
 
 @font-face {
     font-family: Symbolfont;
-    src: url("../Fonts/iconfont.otf");
+    src: url(../Fonts/iconfont.otf);
 }
 
 
@@ -464,7 +479,7 @@ body {}
     }
 
     cite {
-        font-style: italic;
+        font-family: Zitate;
     }
 
     code {
