@@ -1,5 +1,5 @@
 .content1 {
-    background-image: url("../Bilder/bg-1.jpg");
+    background-image: url("../assets/bg-01.jpg");
     background-size: cover;
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -14,7 +14,8 @@
 }
 
 .content3 {
-    background-image: url("../Bilder/bg-2.jpg");
+    background-image: url("../assets/bg-04.svg");
+    
     background-size: cover;
     padding-top: 10rem;
     padding-bottom: 10rem;
